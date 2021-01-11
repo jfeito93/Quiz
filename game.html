@@ -1,0 +1,49 @@
+<!-- question.html SPA. Página para renderizar las 10 distintas preguntas -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Questions/Preguntas -->
+    <title>Quiz Quiz - Play</title>
+    <link rel="stylesheet" href="./css/app.css" />
+    <link rel="stylesheet" href="./css/game.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="quiz" class="justify-center flex-column">
+          <div id="contador">
+              <div id="contadorContainer">
+                  <p class="contadorNombre">Pregunta</p>
+                  <!-- 1/10 -->
+                  <h1 class="contadorNumero" id="preguntasContador"></h1>
+              </div>
+              <div id="contadorContainer">
+                <p class="contadorNombre">Puntuación</p>
+                <h1 class="contadorNumero" id="puntuacion">0</h1>
+            </div>
+          </div>
+        <!-- Responde a las siguientes preguntas -->
+        <h2 id="pregunta">What is the answer to this questions?</h2>
+        <div class="eleccionContainer">
+          <p class="eleccionNumero">1</p>
+          <p class="eleccionTexto" data-numero="1">Elección 1</p>
+        </div>
+        <div class="eleccionContainer">
+          <p class="eleccionNumero">2</p>
+          <p class="eleccionTexto" data-numero="2">Elección 2</p>
+        </div>
+        <div class="eleccionContainer">
+          <p class="eleccionNumero">3</p>
+          <p class="eleccionTexto" data-numero="3">Elección 3</p>
+        </div>
+        <div class="eleccionContainer">
+          <p class="eleccionNumero">4</p>
+          <p class="eleccionTexto" data-numero="4">Elección 4</p>
+        </div>
+      </div>
+    </div>
+    <script src="./js/game.js"></script>
+  </body>
+</html>

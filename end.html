@@ -1,0 +1,26 @@
+<!-- results.html Página para mostrar resultado del quiz -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- results.html Página para mostrar resultado del quiz -->
+    <title>Congrats</title>
+    <link rel="stylesheet" href="./css/app.css">
+  </head>
+  <body>
+    <div class="caja">
+      <div id="final" class="flex-center flex-column">
+          <h1 id="resultadoFinal"></h1>
+          <form>
+              <input type="text" name="usuario" id="usuario" placeholder="usuario">
+              <button type="submit" class="boton" id="botonGuardado" onclick="guardarPuntuacion(event)" disabled>Guardar</button>
+          </form>
+          <a href="./game.html" class="boton">¡Juega de nuevo!</a>
+          <a href="./index.html" class="boton">Inicio</a>
+      </div>
+    </div>
+    <script src="./js/end.js"></script>
+  </body>
+</html>

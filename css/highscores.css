@@ -1,0 +1,16 @@
+/* results.html Página para mostrar resultado del quiz */
+
+#puntuacionMayorLista {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+}
+
+.puntuacionMayor {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.puntuacionMayor:hover {
+    transform: scale(1.025);
+}
